@@ -1,0 +1,28 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "Backend for user registration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node  -r dotenv/config --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node -r dotenv/config App.js",
+    "dev": "DEBUG=* nodemon -r dotenv/config app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tariba/user_registration_BE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tariba/user_registration_BE/issues"
+  },
+  "homepage": "https://github.com/tariba/user_registration_BE#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
