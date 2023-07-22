@@ -10,10 +10,10 @@ export async function createUserTable() {
    * call the function once to created in the elephantSQL
    */
   
-//   try {
-//     createUserTable();
-//   } catch (error) {
-//     console.log(error);
-//   } finally {
-//     await pool.end();
-//   }
+  // try {
+  //   createUserTable();
+  // } catch (error) {
+  //   console.log(error);
+  // } finally {
+  //   await pool.end();
+  // }
