@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-
+import { createUserTable } from "./db/functions.js";
 const app = express();
 
 app.use(cors("*"));
